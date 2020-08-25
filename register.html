@@ -5,6 +5,7 @@
     </head>
     <body>
         <h1>XYZ.COM</h1>
+    <form>
         <div class="logon">
             <input type="text" placeholder="Enter Name" name="username" required> 
             </br>
@@ -21,8 +22,9 @@
             <input type="password" placeholder="Confirm Password" name="password" required>
             </br>
             </br> 
-            <a href="home.html" target="_self"><button type="submit" onclick="myFunction()" class="b1">Register</button></a>
+            <button type="submit" onsubmit="myFunction()" class="b1">Register</button>
         </div>
+    </form>
         <script>
             function myFunction() {
               alert("You have succesfully registered");
